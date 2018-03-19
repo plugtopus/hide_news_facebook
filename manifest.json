@@ -1,0 +1,20 @@
+{
+    "author": "Plugtopus Agency",
+   "content_scripts": [ {
+      "js": [ "js/jquery.min.js", "js/hide.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "ru",
+   "description": "__MSG_desc__",
+   "homepage_url": "https://plugtopus.agency",
+   "icons": {
+      "128": "icon/icon128.png",
+      "16": "icon/icon-16.png",
+      "48": "icon/icon-48.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "19.3.18.1"
+}
